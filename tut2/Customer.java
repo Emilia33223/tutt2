@@ -54,5 +54,4 @@ public class Customer {
         System.out.println("Loyal Customer: " + isLoyalCustomer);
 
     }
-
 }

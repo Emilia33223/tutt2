@@ -55,6 +55,15 @@ public class Order {
         this.status = status;
     }
 
+    public void calculateTotal(){
 
+    }
 
+    public void applyDiscount(){
+
+    }
+
+    public void displayDetails(){
+
+    }
 }
