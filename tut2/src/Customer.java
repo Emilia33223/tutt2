@@ -1,7 +1,7 @@
 public class Customer {
-    private int id;
-    private String firstName;
-    private String lastName;
+    public int id;
+    public String firstName;
+    public String lastName;
 
     public int getId() {
         return id;
@@ -47,7 +47,11 @@ public class Customer {
     private boolean isLoyalCustomer;
 
     public void displayInfo() {
-
+        System.out.println("ID: " + id);
+        System.out.println("First Name: " + firstName);
+        System.out.println("Last Name: " + lastName);
+        System.out.println("Email: " + email);
+        System.out.println("Loyal Customer: " + isLoyalCustomer);
 
     }
 

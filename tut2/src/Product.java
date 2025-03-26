@@ -1,7 +1,10 @@
 public class Product {
-    private int id;
-    private String name;
-    private String category;
+    public int id;
+    public String name;
+    public String category;
+    public double price;
+    public int stockQuantity;
+
 
     public int getId() {
         return id;
@@ -43,13 +46,12 @@ public class Product {
         this.stockQuantity = stockQuantity;
     }
 
-    private double price;
-    private int stockQuantity;
 
 
    public int displayInfo(){
 
 
+       return 0;
    }
 
 
